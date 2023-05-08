@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .iconGame {
+    @apply rounded-full flex items-center justify-center;
+  }
+  .iconGame span{
+    @apply shadow-inner-md rounded-full bg-center bg-no-repeat bg-[#e7e7e7] p-[20px] bg-[length:60%];
+  }
+}
+
+
+/* Importa la fuente de Google Fonts */
+
+
+body{
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(
+  180deg,
+  hsl(214deg 47% 23%) 1%,
+  hsl(215deg 48% 22%) 42%,
+  hsl(217deg 49% 21%) 60%,
+  hsl(219deg 50% 20%) 74%,
+  hsl(221deg 50% 19%) 83%,
+  hsl(224deg 50% 18%) 90%,
+  hsl(227deg 50% 18%) 95%,
+  hsl(230deg 50% 17%) 98%,
+  hsl(234deg 49% 16%) 100%,
+  hsl(238deg 48% 15%) 100%
+);
+}
+
+.shadow-inner-md {
+  box-shadow: inset 0px 5px 0px 0px rgba(185,187,206,0.8);
+}
+
+
+
+
